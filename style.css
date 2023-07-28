@@ -1,0 +1,448 @@
+:root {
+  --primary-color:#BA704F;
+  --second-color:#ebf2f6;
+  --third-color:#DFA878;
+  --four-color: #FFC26F;
+  --text-color: #6C3428;
+  --input-color: #FFF3E4;
+  --fondo-input: #865439;
+  --tittle: #F29727;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--primary-color);
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 12%;
+  background-color: var(--second-color); 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.tittle{
+  width: 33%;
+  padding-left: 150px;
+  font-size: 45px;
+  text-decoration: none;
+  /* border: red solid 2px; */
+}
+
+nav{
+  width: 33%;
+  /* border: red solid 2px;aaa */
+}
+
+.icons{
+  /* border: red solid 2px; */
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons > a{
+  margin-left: 50px;
+}
+
+.icons > a:hover,
+.icons > a:focus{
+  margin-left: 50px;
+  opacity: 50%;
+}
+
+nav > .navbar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > .navbar > li{
+  margin-left: 50px;
+  list-style: none; /*Sirve para quitar los puntos o numero que brinda el 'li' en HTML*/
+
+}
+
+nav > .navbar > li > a{
+  text-decoration: none; /*Quieta la subraya del ancla*/
+  font-style: normal;
+  font-size: 25px;
+}
+
+nav > .navbar > li > a:hover,
+nav > .navbar > li > a:focus{
+  opacity: 50%;
+}
+
+main{
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+.tittleP{
+  font-family: 'Courgette', cursive;
+  margin-top: 100px;
+  color: #FFC26F;
+  font-size: 80px;
+}
+
+.about{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.presentation{
+  width: 30%;
+  /* border: red solid 2px;  */
+  display: flex;
+  align-items: center;
+}
+
+.presentation > p{
+  color: var(--second-color);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.line{
+  border-left: var(--second-color) 1.5px solid;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.imageProfile{
+  width: 30%;
+  /* border: red solid 2px; */
+  display: flex;
+  justify-content: center;
+}
+
+.image{
+  width: 400px;
+  height: 450px;
+  border: var(--second-color) 2px solid;
+  border-radius: 20%;
+  /* margin-top: 50px;
+  margin-right: 400px; */
+}
+
+.myHabilitys{
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 93vh;
+  margin-top: 400px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  background-image: url(https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  background-size: cover;
+}
+
+.tittleH{
+  color: #F29727;
+  font-size: 80px;
+  text-align: center;
+  width: 20%;
+  font-family: 'Courgette', cursive;
+}
+
+.habilitys{
+  margin-top: 100px;
+  width: 80%;
+  /* border: red 2px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.habilitys2{
+  width: 80%;
+  margin-top: 30px;
+  /* border: red 2px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.square{
+  width: 50%;
+  height: 250px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 20px;
+  text-align: center;
+  background-image: url(https://images.pexels.com/photos/1260727/pexels-photo-1260727.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  background-size: cover;
+  background-position: center;
+  transition: all 1s;
+}
+
+.square:hover{
+  transform: scale(1.08);
+  
+}
+
+.habilitys > .square > h4{
+  margin-top: 10px;  
+  font-size: 40px;
+  color: var(--text-color);
+}
+
+.habilitys2 > .square > h4{
+  margin-top: 10px;
+  font-size: 40px;
+  color: var(--text-color);
+}
+
+.habilitys > .square > p{
+  font-size: 25px;
+  color: var(--text-color);
+  margin-top: 20px;
+}
+
+.habilitys2 > .square > p{
+  font-size: 25px;
+  color: var(--text-color);
+  margin-top: 20px;
+}
+
+.educacion{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 80vh;
+  margin-top: 200px;
+  padding: 50px;
+  background-color: #FEFBF6;
+  border-radius: 12px;
+  border: var(--text-color) solid 2px;
+}
+
+.textEducacion{
+  width: 50%;
+  height: 100%;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(#F6F4EB, #91C8E4);
+}
+
+.textEducacion > h3{
+  color: #3F2305;
+  font-size: 80px;
+  font-family: 'Courgette', cursive;
+}
+
+.textEducacion > p{
+  color: #3F2305;
+  font-size: 40px;
+  text-align: center;
+  place-items: top;
+}
+
+
+.containerImageE{
+  width: 50%;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  margin-left: 100px;
+}
+
+.containerImageE > .imageE1{
+  padding: 5px;
+  display: block;
+  min-width: 50px;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.pexels.com/photos/808822/pexels-photo-808822.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  background-position: center;
+  background-size: cover;
+  opacity: 25%;
+  flex: 1;
+  transition: .5s;
+}
+
+.containerImageE > .imageE1 > p{
+  color: var(--second-color);
+  font-size: 25px;
+}
+
+.containerImageE > .imageE2{
+  padding: 5px;
+  display: grid;
+  min-width: 50px;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.pexels.com/photos/4667603/pexels-photo-4667603.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  background-position: center;
+  background-size: cover;
+  opacity: 25%;
+  flex: 1;
+  transition: .5s;
+}
+
+.containerImageE > .imageE2 > p{
+  color: black;
+  font-size: 25px;
+}
+
+.containerImageE > .imageE3{
+  padding: 5px;
+  display: block;
+  min-width: 50px;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.pexels.com/photos/4151043/pexels-photo-4151043.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  background-position: center;
+  background-size: cover;
+  opacity: 25%;
+  flex: 1;
+  transition: .5s;
+}
+
+.containerImageE > .imageE3 > p{
+  color: var(--second-color);
+  font-size: 25px;
+}
+
+.containerImageE > .imageE:hover{
+  flex: 4;
+  opacity: 100%;
+  text-align: center;
+}
+
+.containerImageE > .imageE2:hover{
+  flex: 4;
+  opacity: 100%;
+  text-align: center;
+  border-top: black solid 2px;
+  border-bottom: black solid 1px;
+}
+
+
+.formulario{
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 80vh;
+  margin-top: 400px;
+  padding-bottom: 80px;
+  background-color: var(--fondo-input);
+}
+
+.formulario > h3{
+  color: #8FC1D4;
+  font-size: 80px;
+  text-align: center;
+  width: 20%;
+  font-family: 'Courgette', cursive;
+}
+
+.formularioContacto{
+  display: grid;
+  place-items: center;
+  background-color: var(--input-color);
+  width: 40%;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.formularioContacto > .input{
+  width: 60%;
+  height: 40px;
+  border-radius: 12px;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  margin: 0px;
+  padding: 5px 5px 5px 5px; 
+  background-color: #483434;
+  color: var(--second-color);
+  border: 0;
+}
+
+.formularioContacto > .input::placeholder{
+  color: gray;
+  opacity: 0.5;
+}
+
+.formularioContacto > textarea{
+  height: 300px;
+  width: 60%;
+  max-width: 60%;
+  max-height: 300px;
+  min-width: 60%;
+  min-height: 300px;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 12px;
+  background-color: #483434; 
+  color: var(--second-color);
+}
+
+.formularioContacto > .textarea::placeholder{
+  color: gray;
+  opacity: 0.5;
+}
+
+.formularioContacto > .animacion:focus{
+  width: 60%;
+  height: 40px;
+  outline: 0;
+  border: #911F27 4px solid;
+}
+
+.btn-submit{
+  width: 20%;
+  height: 70%;
+  padding: 5px;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  border-radius: 40px;
+  border: 0;
+  color: var(--second-color);
+  background-color: var(--tittle);
+}
+
+.btn-submit:hover,
+.btn-submit:focus{
+  background-color: #8FC1D4;
+  cursor: pointer; 
+}
+
+.btn-up{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: black solid 3px;
+  float: right;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
