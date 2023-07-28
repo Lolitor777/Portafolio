@@ -96,7 +96,7 @@ main{
   font-family: 'Courgette', cursive;
   margin-top: 100px;
   color: #FFC26F;
-  font-size: 8rem;
+  font-size: 100px;
 }
 
 .about{
@@ -143,13 +143,14 @@ main{
 .myHabilitys{
   display: grid;
   place-items: center;
-  width: 100%;
-  height: 93vh;
-  margin-top: 400px;
+  width: 90%;
+  height: 90vh;
+  margin-top: 100px;
   padding-bottom: 40px;
   padding-top: 40px;
-  background-image: url(https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  background-image: url(https://images.pexels.com/photos/639479/pexels-photo-639479.jpeg?auto=compress&cs=tinysrgb&w=1600);
   background-size: cover;
+  border-radius: 12px;
 }
 
 .tittleH{
@@ -162,7 +163,7 @@ main{
 
 .habilitys{
   margin-top: 100px;
-  width: 80%;
+  width: 100%;
   /* border: red 2px solid; */
   display: flex;
   align-items: center;
@@ -170,13 +171,12 @@ main{
 }
 
 .habilitys2{
-  width: 80%;
+  width: 100%;
   margin-top: 30px;
   /* border: red 2px solid; */
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .square{
@@ -190,6 +190,7 @@ main{
   background-size: cover;
   background-position: center;
   transition: all 1s;
+  padding: 10px;
 }
 
 .square:hover{
@@ -200,65 +201,64 @@ main{
 .habilitys > .square > h4{
   margin-top: 10px;  
   font-size: 40px;
-  color: var(--text-color);
+  color: #A34A28;
 }
 
 .habilitys2 > .square > h4{
   margin-top: 10px;
   font-size: 40px;
-  color: var(--text-color);
+  color: #A34A28;
 }
 
 .habilitys > .square > p{
   font-size: 25px;
-  color: var(--text-color);
+  color: #343434;
   margin-top: 20px;
 }
 
 .habilitys2 > .square > p{
   font-size: 25px;
-  color: var(--text-color);
+  color: #343434;
   margin-top: 20px;
 }
 
 .educacion{
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 90%;
-  height: 80vh;
-  margin-top: 200px;
-  padding: 50px;
+  height: 90vh;
+  margin-top: 100px;
   background-color: #FEFBF6;
   border-radius: 12px;
   border: var(--text-color) solid 2px;
 }
 
 .textEducacion{
-  width: 50%;
-  height: 100%;
+  width: 40%;
+  height: 90%;
   border-radius: 12px;
   display: grid;
   place-items: center;
-  background: linear-gradient(#F6F4EB, #91C8E4);
+  background: var(--primary-color);
 }
 
 .textEducacion > h3{
-  color: #3F2305;
+  color: var(--second-color);
   font-size: 80px;
   font-family: 'Courgette', cursive;
 }
 
 .textEducacion > p{
-  color: #3F2305;
+  color: var(--second-color);
   font-size: 40px;
   text-align: center;
   place-items: top;
 }
 
-
 .containerImageE{
-  width: 50%;
-  height: 100%;
+  width: 40%;
+  height: 90%;
   border-radius: 12px;
   overflow: hidden;
   display: flex;
@@ -284,9 +284,14 @@ main{
   font-size: 25px;
 }
 
+.containerImageE > .imageE1 > h3{
+  color: var(--second-color);
+  font-size: 35px;
+}
+
 .containerImageE > .imageE2{
   padding: 5px;
-  display: grid;
+  display: bloc;
   min-width: 50px;
   width: 100%;
   height: 100%;
@@ -301,6 +306,11 @@ main{
 .containerImageE > .imageE2 > p{
   color: black;
   font-size: 25px;
+}
+
+.containerImageE > .imageE2 > h3{
+  color: black;
+  font-size: 35px;
 }
 
 .containerImageE > .imageE3{
@@ -322,29 +332,27 @@ main{
   font-size: 25px;
 }
 
+.containerImageE > .imageE3 > h3{
+  color: var(--second-color);
+  font-size: 35px;
+}
+
 .containerImageE > .imageE:hover{
   flex: 4;
   opacity: 100%;
   text-align: center;
 }
 
-.containerImageE > .imageE2:hover{
-  flex: 4;
-  opacity: 100%;
-  text-align: center;
-  border-top: black solid 2px;
-  border-bottom: black solid 1px;
-}
-
-
 .formulario{
   display: grid;
   place-items: center;
-  width: 100%;
-  height: 80vh;
-  margin-top: 400px;
+  width: 90%;
+  height: 90vh;
+  margin-top: 100px;
   padding-bottom: 80px;
-  background-color: var(--fondo-input);
+  border-radius: 12px;
+  background: var(--fondo-input);
+  border: var(--second-color) solid 2px;
 }
 
 .formulario > h3{
@@ -363,6 +371,8 @@ main{
   height: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-radius: 12px;
+  border: black solid 2px;
 }
 
 .formularioContacto > .input{
