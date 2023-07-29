@@ -18,32 +18,31 @@
 
 </head>
 <body>
-
   <header>
     <a href="#" class="tittle"><h2>Portafolio</h2></a>
     <nav>
-      <ul class="navbar">
+      <ul class="navbar" id="navbar">
         <li><a href="#">Perfil</a></li>
         <li><a href="#myHabilitys">Habilidades</a></li>
         <li><a href="#educacion">Educación</a></li>
-        <li><a href="#formularioDeContacto">Contáctame</a></li>        
+        <li><a href="#formulario">Contáctame</a></li>        
       </ul>
     </nav>
     <div class="icons">
       <a href="https://www.facebook.com/profile.php?id=100010443995497" target="_blank">
-        <i class="fa-brands fa-square-facebook fa-3x" style="color: #000000;"></i>
+        <i class="fa-brands fa-square-facebook fa-4x" style="color: #000000;"></i>
       </a>
       <a href="https://www.instagram.com/victorcarvajal954/" target="_blank">
-        <i class="fa-brands fa-square-instagram fa-3x" style="color: #000000;"></i>
+        <i class="fa-brands fa-square-instagram fa-4x" style="color: #000000;"></i>
       </a>
       <a href="https://wa.link/svqm9l" target="_blank">
-        <i class="fa-brands fa-square-whatsapp fa-3x" style="color: #000000"></i>
+        <i class="fa-brands fa-square-whatsapp fa-4x" style="color: #000000"></i>
       </a> 
     </div>
   </header>
 
   <main>
-    <h3 class="tittleP">Perfil</h3>
+    <h3 class="tittleP" id="tittleP">Perfil</h3>
     <div class="about">
         <section class="presentation">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellendus dolor dolorem, odio sequi officia. 
@@ -111,9 +110,9 @@
       </div>
     </section>
 
-    <section class="formulario">
+    <section class="formulario" id="formulario">
       <h3>Contáctame!</h3>
-      <form name="formularioDeContacto" class="formularioContacto" id="formularioDeContacto">
+      <form name="formularioDeContacto" class="formularioContacto">
         <label for="nombre"></label>
         <input type="text" name="nombre" id="nombre" class="input animacion" placeholder="Nombre">
 
@@ -129,8 +128,44 @@
         <input type="submit" name="submit" value="Enviar" class="btn-submit">
       </form>
     </section>
+  
   </main>
   
-  <footer></footer>
+  <footer class="piePagina"> 
+
+    <div class="grupoUno">
+      <div class="container1">
+        <h2>Portafolio</h2>
+      </div>
+
+      <div class="container2">
+        <ul>
+          <li style="list-style: none;"><a href="#navbar">Perfil</a></li>
+          <li style="list-style: none;"><a href="#myHabilitys">Habilidades</a></li>
+          <li style="list-style: none;"><a href="#educacion">Educación</a></li>
+          <li style="list-style: none;"><a href="#formulario">Contáctame</a></li>
+        </ul>
+      </div>
+
+      <div class="container3">
+        <h2>Sígueme!</h2>
+        <div class="iconsFooter">
+          <a href="https://www.facebook.com/profile.php?id=100010443995497" target="_blank">
+            <i class="fa-brands fa-square-facebook fa-3x" style="color: #000000;"></i>
+          </a>
+          <a href="https://www.instagram.com/victorcarvajal954/" target="_blank">
+            <i class="fa-brands fa-square-instagram fa-3x" style="color: #000000;"></i>
+          </a>
+          <a href="https://wa.link/svqm9l" target="_blank">
+            <i class="fa-brands fa-square-whatsapp fa-3x" style="color: #000000"></i>
+          </a>
+        </div> 
+      </div>
+    </div>
+
+    <div class="grupoDos">
+      <small>&copy; 2023 <b>Victor Manuel Carvajal</b> - Todos los derechos reservados.</small>
+    </div>
+  </footer>
 </body>
 </html>
