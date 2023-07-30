@@ -178,6 +178,81 @@ main{
   opacity: 50%;
 }
 
+.goTop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  width: 66px;
+  height: 66px;
+  z-index: -1;
+  opacity: 0;
+}
+
+.goTopButton{
+  width: 0px;
+  height: 0px;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+}
+
+.goTop > .goTopButton > i{
+  position: absolute;
+  font-size: 17px;
+  top: 48%;
+  left: 50%;
+  color: white;
+  transition: .2s;
+}
+
+.mostrar{
+  z-index: 10;
+  opacity: 100%;
+}
+
+.mostrar .goTopButton{
+  animation: popup .3s ease-in-out;
+  width: 66px;
+  height: 66px;
+  z-index: 11;
+}
+
+.mostrar i{
+  transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes popup {
+  0%{
+    width: 0px;
+    height: 0px;
+  }
+
+  50%{
+    width: 80px;
+    height: 80px;
+  }
+
+  100%{
+    width: 66px;
+    height: 66px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 .tittleP{
   font-family: 'Courgette', cursive;
   margin-top: 100px;
