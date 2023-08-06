@@ -33,7 +33,7 @@ header {
 }
 
 .btnMenu{
-  width: 15%;
+  width: 10%;
   padding-left: 50px;
 }
 
@@ -43,10 +43,11 @@ header {
 }
 
 .tittle{
-  width: 18%;
+  width: auto;
   font-size: 60px;
   text-decoration: none;
   /* border: red solid 2px; */
+  padding-right: 200px;
 }
 
 nav{
@@ -80,7 +81,7 @@ nav > .navbar{
 }
 
 nav > .navbar > li{
-  margin-left: 50px;
+  margin-left: 20px;
   list-style: none; /*Sirve para quitar los puntos o numero que brinda el 'li' en HTML*/
 
 }
@@ -518,6 +519,60 @@ main{
   opacity: 100%;
   text-align: center;
 }
+
+.proyectos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: red solid 2px;
+  width: 90%;
+  height: 90vh;
+  margin-top: 100px;
+  border-radius: 12px;
+}
+
+.proyectos > .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: red solid 2px;
+  width: 40%;
+  height: 90%;
+  margin-right: 50px;
+  border-radius: 12px;
+}
+
+.proyectos > .cards{
+  border: red solid 2px;
+  width: 40%;
+  height: 90%;
+  border-radius: 12px;
+}
+
+.proyectos > .container > .tittleProyect{
+  height: 25%;
+  width: 90%;
+  margin-bottom: 30px;
+  border: red solid 2px;
+  border-radius: 12px;
+}
+
+.proyectos > .container > .imageProyect{
+  height: 65%;
+  width: 90%;
+  border: red solid 2px;
+  border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
 
 .formulario{
   display: grid;
