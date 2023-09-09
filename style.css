@@ -245,15 +245,6 @@ main{
   }
 }
 
-
-
-
-
-
-
-
-
-
 .tittleP{
   font-family: 'Courgette', cursive;
   margin-top: 100px;
@@ -262,6 +253,7 @@ main{
 }
 
 .about{
+  width: 90%;
   margin-top: 100px;
   display: flex;
   justify-content: center;
@@ -269,7 +261,6 @@ main{
 
 .presentation{
   width: 30%;
-  /* border: red solid 2px;  */
   display: flex;
   align-items: center;
 }
@@ -281,6 +272,7 @@ main{
 }
 
 .line{
+  width: 5%;
   border-left: var(--second-color) 1.5px solid;
   margin-left: 200px;
   margin-right: 200px;
@@ -288,18 +280,12 @@ main{
 
 .imageProfile{
   width: 30%;
-  /* border: red solid 2px; */
-  display: flex;
-  justify-content: center;
-}
-
-.image{
-  width: 400px;
-  height: 450px;
   border: var(--second-color) 2px solid;
   border-radius: 20%;
-  /* margin-top: 50px;
-  margin-right: 400px; */
+  background-image: url(photo.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 450px;
 }
 
 .myHabilitys{
@@ -564,12 +550,6 @@ main{
   border: red solid 2px;
   border-radius: 12px;
 }
-
-
-
-
-
-
 
 
 
