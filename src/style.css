@@ -11,3 +11,9 @@
     font-weight: 600;
 }
 
+
+.no-scroll {
+    height: 100vh;
+    overflow: hidden;
+}
+
