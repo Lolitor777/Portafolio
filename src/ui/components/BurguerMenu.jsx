@@ -6,12 +6,24 @@ export const BurguerMenu = () => {
 
     const [toggleMenu, setToggleMenu] = useState(false);
 
+    const onToggleMenu = () => {
+        
+        const body = document.querySelector('.active')
 
+        if ( toggleMenu ) {
+            body.classList.remove('no-scroll')
+        }
+        else {
+            body.classList.add('no-scroll') 
+        }
+
+        setToggleMenu( !toggleMenu )
+    }
 
     return (
         <>
             <div
-                onClick={() => setToggleMenu(!toggleMenu)}
+                onClick={ onToggleMenu }
                 className={`menu-container ${toggleMenu && 'active'}`}>
                 <div></div>
                 <div></div>
@@ -19,7 +31,7 @@ export const BurguerMenu = () => {
             </div>
 
             
-            <ListMenu setToggleMenu={ setToggleMenu } toggleMenu={ toggleMenu } />
+            <ListMenu onToggleMenu={ onToggleMenu } toggleMenu={ toggleMenu } />
 
         </>
 
