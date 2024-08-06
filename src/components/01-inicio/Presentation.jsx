@@ -1,4 +1,6 @@
-import astronauta from '../../assets/astronauta.webp'
+import astronauta from '../../../assets/landing/astronauta.webp';
+import taza from '../../../assets/landing/taza.png';
+import libro from '../../../assets/landing/libro.png';
 import './inicio.css'
 
 export const Presentation = () => {
@@ -12,12 +14,31 @@ export const Presentation = () => {
 
         <p className="font-semibold mt-5 sm:text-[1.3rem] lg:text-[1.6rem]">Me gustan muchas cosas, pero desarrollar aplicaciones web me resulta gratificante.</p>
 
-        <figure className='w-[70%] max-w-[350px] mt-10 lg:mt-[4em] mx-auto astronauta-image'>
-          <img 
-          src={astronauta} 
-          alt="Foto de astronauta" 
-          className='object-cover object-center w-full' />
-        </figure>
+        <div className='flex justify-center items-end max-w-[400px] mx-auto'>
+
+          <figure className='w-[60px]'>
+            <img
+              src={libro}
+              alt="Foto de astronauta"
+              className='object-cover object-center w-full' />
+          </figure>
+
+          <figure className='w-[70%] max-w-[350px] mt-10 lg:mt-[4em] mx-auto astronauta-image'>
+            <img
+              src={astronauta}
+              alt="Foto de astronauta"
+              className='object-cover object-center w-full' />
+          </figure>
+
+          <figure className='w-[60px]'>
+            <img
+              src={taza}
+              alt="Foto de astronauta"
+              className='object-cover object-center w-full' />
+          </figure>
+
+        </div>
+
       </div>
 
     </section>

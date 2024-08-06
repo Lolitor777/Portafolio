@@ -9,7 +9,7 @@ export const TechnologyItem = ({ title, description, technology, index }) => {
     
 
   return (
-    <div className="text-center flex-1 flex flex-col items-center justify-center border-b-[1px] lg:border-b-0 lg:border-r-[1px] border-[#E6ECF8] py-[2em] lg:py-[4em] px-[1em] lg:px-[2em] ">
+    <div className="text-center flex-1 flex flex-col items-center lg:justify-start justify-center border-b-[1px] lg:border-b-0 lg:border-r-[1px] border-[#E6ECF8] py-[2em] lg:py-[4em] px-[1em] lg:px-[2em] lg:h-full ">
         <span className="bg-green rounded-full text-[3rem] p-[.2em] shadow-md">
           {
             index === 0 

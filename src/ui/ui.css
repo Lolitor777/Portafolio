@@ -47,12 +47,13 @@
 }
 
 .list-menu-container-hidden {
-    background-color: transparent;
-    
+    display: none;
+    transition: all 1s ease-in;
 }
 
 .list-menu-container-active{
     background-color: #0b0b0b5e;
+    transition: all 1s ease-in;
 }
 
 
