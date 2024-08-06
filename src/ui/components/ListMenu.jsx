@@ -1,4 +1,4 @@
-import coffeeCup from '../../assets/coffee-cup.avif'
+import coffeeCup from '../../../assets/landing/coffee-cup.avif'
 
 const links = [{
     name: 'Inicio',
@@ -27,8 +27,7 @@ export const ListMenu = ({ toggleMenu, onToggleMenu}) => {
 
     return (
         <div 
-        className={`fixed top-0 bottom-0 right-0 left-0 z-10 ${toggleMenu ? 'list-menu-container-active' : 'list-menu-container-hidden'}`}
-        onClick={ onToggleMenu }>
+        className={`fixed top-0 bottom-0 right-0 left-0 z-10 ${toggleMenu ? 'list-menu-container-active' : 'list-menu-container-hidden'}`}>
             <nav className={`bg-gray md:max-w-[350px] absolute left-0 right-0 top-0 h-auto pt-5 p-10 md:right-[65%] md:bottom-0 ${toggleMenu ? 'list-menu-container-child-active' : 'list-menu-container-child-hidden'}`}>
                 <ul className="text-center">
                     {

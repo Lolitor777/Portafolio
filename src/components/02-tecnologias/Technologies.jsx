@@ -8,7 +8,7 @@ export const Technologies = () => {
 
   return (
     <section id="tecnologias" className="w-full mt-[-8em]">
-      <div className="w-[90%] max-w-7xl mx-auto flex flex-col lg:flex-row overflow-hidden rounded-lg bg-white shadow-md justify-center items-center lg:items-start">
+      <div className="w-[90%] max-w-7xl mx-auto flex flex-col lg:flex-row lg:h-[638px] overflow-hidden rounded-lg bg-white shadow-md justify-center items-center lg:items-start">
         {
           technologies.map( (item, index )=> (
             <TechnologyItem 
