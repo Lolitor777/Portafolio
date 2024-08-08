@@ -1,16 +1,18 @@
+import { useState } from 'react'
 import coffeeCup from '../../../assets/landing/coffee-cup.avif'
+import { useEffect } from 'react';
 
 const links = [{
     name: 'Inicio',
     link: '#start'
 },
 {
-    name: 'Proyectos',
-    link: '#project'
-},
-{
     name: 'Tecnologías',
     link: '#technology'
+},
+{
+    name: 'Proyectos',
+    link: '#project'
 },
 {
     name: 'Testimonios',
@@ -23,6 +25,7 @@ const links = [{
 ]
 
 export const ListMenu = ({ toggleMenu, onToggleMenu}) => {
+
 
 
     return (

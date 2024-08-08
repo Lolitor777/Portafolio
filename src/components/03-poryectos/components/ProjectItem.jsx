@@ -51,7 +51,7 @@ export const ProjectItem = ({ title, technologies, index, logo, background, desc
         <a 
         href={ link } 
         target="_blank" 
-        className="text-white font-titillium font-medium border border-yellow rounded-full px-[1em] text-[1.2rem] hover:bg-yellow hover:text-gray bg-gradient-to-tr">Visitar &gt;</a>
+        className="text-white font-titillium font-medium border border-yellow rounded-full px-[1em] text-[1.2rem] hover:bg-yellow hover:text-gray transition-all">Visitar &gt;</a>
       </div>
 
     </div>
