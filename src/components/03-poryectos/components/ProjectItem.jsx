@@ -10,15 +10,15 @@ export const ProjectItem = ({ title, technologies, index, logo, background, desc
 
 
   return (
-    <div className="relative w-full h-[250px] sm:h-[280px] md:h-[250px] lg:h-[280px] xl:h-[260px] rounded-2xl overflow-hidden">
-      <figure className="absolute inset-0 z-0">
+    <div className="relative w-full h-[210px] sm:h-[280px] md:h-[250px]  rounded-2xl lg:h-[280px] xl:h-[260px] overflow-hidden">
+      <figure className="absolute inset-0 z-0 rounded-2xl overflow-hidden">
         <img
           src={proyectBackground}
           alt={title}
-          className="w-full h-full" />
+          className="w-full h-full border-green border" />
       </figure>
 
-      <span className={`${index == 0 ? 'bg-[#1245788b]' : index == 1 ? 'bg-[#2c611d7b]' : 'bg-[#3f105694]'} absolute inset-0`} ></span>
+      <span className={`${index == 0 ? 'bg-[#1245788b]' : index == 1 ? 'bg-[#2c611d7b]' : 'bg-[#3f105694]'} absolute inset-0 rounded-2xl`} ></span>
 
 
       <div className="absolute z-1 inset-0 flex justify-center items-center border-white border gap-2 flex-col">

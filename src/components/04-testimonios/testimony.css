@@ -1,0 +1,29 @@
+.slick-dots li {
+    button {
+      font-size: 10px;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background-color: #d6e1e2
+    }
+  
+    &.slick-active button {
+      background-color:  #3498db
+    }
+}
+
+.slick-dots li button:before {
+    font-size: 0px;
+    line-height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }

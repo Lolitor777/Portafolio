@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar } from './ui'
-import { AboutMe, Presentation, Projects, Technologies } from './components'
+import { AboutMe, Footer, Presentation, Projects, Technologies, Testimonies } from './components'
 
 export const PortafolioApp = () => {
   return (
@@ -14,6 +14,10 @@ export const PortafolioApp = () => {
       <Technologies />
 
       <Projects />
+
+      <Testimonies />
+
+      <Footer />
     </>
   )
 }

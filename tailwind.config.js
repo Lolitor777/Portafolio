@@ -14,7 +14,8 @@ export default {
       black: '#000'
     },
     fontFamily: {
-      titillium: ["Titillium Web", 'sans-serif']
+      titillium: [ "Titillium Web", 'sans-serif' ],
+      robotoSlab: [ "Roboto Slab", 'serif' ] 
     },
     extend: {},
   },
