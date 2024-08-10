@@ -1,10 +1,11 @@
-import { PortafolioApp } from "./PortafolioApp"
+
+import { PortafolioRoutes } from "./router/PortafolioRoutes"
 
 
 export const Portafolio = () => {
   return (
     <>
-        <PortafolioApp />
+        <PortafolioRoutes />
     </>
   )
 }

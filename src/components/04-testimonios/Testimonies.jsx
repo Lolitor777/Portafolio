@@ -19,7 +19,9 @@ export const Testimonies = () => {
 
 
   return (
-    <section className="w-full mt-[6em] lg:mt-[10em]">
+    <section 
+    id="testimonios"
+    className="w-full mt-[6em] lg:mt-[10em]">
       <hr className="text-[#d6e1e2]"/>
 
       <div className="w-[90%] max-w-7xl mt-[4em] lg:mt-[8em] mx-auto text-center">
