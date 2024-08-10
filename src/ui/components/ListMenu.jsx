@@ -1,26 +1,25 @@
-import { useState } from 'react'
 import coffeeCup from '../../../assets/landing/coffee-cup.avif'
-import { useEffect } from 'react';
+
 
 const links = [{
     name: 'Inicio',
-    link: '#start'
+    link: '#inicio'
 },
 {
     name: 'Tecnologías',
-    link: '#technology'
+    link: '#tecnologias'
 },
 {
     name: 'Proyectos',
-    link: '#project'
+    link: '#proyectos'
 },
 {
     name: 'Testimonios',
-    link: '#testimony'
+    link: '#testimonios'
 },
 {
     name: 'Contáctame',
-    link: '#contact'
+    link: '/contact'
 }
 ]
 
@@ -41,7 +40,8 @@ export const ListMenu = ({ toggleMenu, onToggleMenu}) => {
                                 <a
                                     className="text-white md:hover:text-yellow md:text-[1.5rem] font-titillium font-semibold"
                                     onClick={ onToggleMenu }
-                                    href={link.link}>{link.name}
+                                    href={link.link}>
+                                        {link.name}
                                 </a>
                             </li>
                         ))

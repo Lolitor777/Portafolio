@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../../../assets/landing/logo.webp'
 import { FaFacebookF } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
@@ -15,7 +16,11 @@ export const Footer = () => {
 
                     <p className="text-white mt-[1em] lg:mt-0 text-center font-normal lg:font-semibold lg:w-[450px]">Estoy emocionado de conectar contigo y formar una posible amistad. No dudes en ponerte en contacto.</p>
 
-                    <button className="text-white mt-[1.5em] lg:mt-0 border border-yellow px-[1.5em] lg:py-[.3em] text-[1.2rem] lg:text-[1.4rem] lg:hover:bg-yellow lg:hover:text-gray rounded-full active:bg-yellow active:text-gray transition">¡Vamos!</button>
+                    <Link 
+                    to='contact'
+                    className="text-white mt-[1.5em] lg:mt-0 border border-yellow px-[1.5em] lg:py-[.3em] text-[1.2rem] lg:text-[1.4rem] lg:hover:bg-yellow lg:hover:text-gray rounded-full active:bg-yellow active:text-gray transition">
+                        ¡Vamos!
+                    </Link>
                 </div>
 
                 <figure className='w-[80px] mx-auto mt-[-2em]'>
@@ -23,26 +28,26 @@ export const Footer = () => {
                 </figure>
 
                 <div className='flex justify-center mt-[1.5em] gap-[.5em]'>
-                    <a
+                    <Link
                     target='_blank' 
-                    href='https://www.facebook.com/profile.php?id=100010443995497' 
+                    to='https://www.facebook.com/profile.php?id=100010443995497' 
                     className=' text-white border text-[1.5rem] p-[.3em] rounded-full lg:hover:bg-gray lg:hover:border-gray transition'>
                         <FaFacebookF fill='#fff' />
-                    </a>
+                    </Link>
 
-                    <a
+                    <Link
                     target='_blank' 
-                    href='https://www.instagram.com/vc_1539/'
+                    to='https://www.instagram.com/vc_1539/'
                     className='text-white border text-[1.5rem] p-[.3em] rounded-full lg:hover:bg-gray lg:hover:border-gray transition'>
                         <AiFillInstagram fill='white'/>
-                    </a>
+                    </Link>
 
-                    <a
+                    <Link
                     target='_blank' 
-                    href='https://www.linkedin.com/in/victor-carvajal-dev/'
+                    to='https://www.linkedin.com/in/victor-carvajal-dev/'
                     className='text-white border text-[1.5rem] p-[.3em] rounded-full lg:hover:bg-gray lg:hover:border-gray transition'>
                         <FaLinkedinIn fill='white'/>
-                    </a>
+                    </Link>
                 </div>
 
                 <small  className='text-center block mt-[2em] pb-[1em] font-titillium'>Victor Manuel Carvajal - 2024</small>
