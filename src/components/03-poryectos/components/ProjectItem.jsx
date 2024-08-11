@@ -4,6 +4,7 @@ import { useState } from "react";
 export const ProjectItem = ({ title, technologies, index, logo, background, description, link }) => {
 
   const [toggleCardProject, setToggleCardProject] = useState( false );
+  
 
   const proyectBackground = `/assets/landing/${background}.webp`;
   const proyectLogo = `/assets/landing/${logo}.png`
@@ -35,7 +36,7 @@ export const ProjectItem = ({ title, technologies, index, logo, background, desc
             technologies.map( technologie => (
               <img
               key={ technologie } 
-              src={`/assets/project-logos/${technologie}.svg`} 
+              src={`/assets/landing/${technologie}.svg`} 
               alt={ technologie }
               className={`${ technologie == 'astrojs' ? 'w-[15px]' : 'w-[25px]'}`} />
             ))
