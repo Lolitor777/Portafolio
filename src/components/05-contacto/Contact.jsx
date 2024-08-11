@@ -1,5 +1,5 @@
 import { ContactForm } from "./components/ContactForm"
-import logo from '../../../assets/landing/logo.webp'
+import logo from '../../../assets/logo.webp'
 import './contact.css'
 
 export const Contact = () => {

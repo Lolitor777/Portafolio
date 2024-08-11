@@ -1,4 +1,4 @@
-import coffeeCup from '../../../assets/landing/coffee-cup.avif'
+import coffeeCup from '../../../assets/coffee-cup.avif'
 
 
 const links = [{

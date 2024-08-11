@@ -1,4 +1,4 @@
-import logo from "../../assets/landing/logo.webp";
+import logo from "../../assets/logo.webp";
 import { BurguerMenu } from "./components";
 import './ui.css'
 

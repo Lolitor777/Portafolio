@@ -6,8 +6,8 @@ export const ProjectItem = ({ title, technologies, index, logo, background, desc
   const [toggleCardProject, setToggleCardProject] = useState( false );
   
 
-  const proyectBackground = `../../../../assets/landing/${background}.webp`;
-  const proyectLogo = `../../../../assets/landing/${logo}.png`
+  const proyectBackground = `../../../../assets/${background}.webp`;
+  const proyectLogo = `../../../../assets/${logo}.png`
 
 
   return (
@@ -36,7 +36,7 @@ export const ProjectItem = ({ title, technologies, index, logo, background, desc
             technologies.map( technologie => (
               <img
               key={ technologie } 
-              src={`../../../../assets/landing/${technologie}.svg`} 
+              src={`../../../../assets/${technologie}.svg`} 
               alt={ technologie }
               className={`${ technologie == 'astrojs' ? 'w-[15px]' : 'w-[25px]'}`} />
             ))
