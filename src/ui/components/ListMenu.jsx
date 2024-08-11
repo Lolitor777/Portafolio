@@ -19,7 +19,7 @@ const links = [{
 },
 {
     name: 'Contáctame',
-    link: '/contact'
+    link: 'contact'
 }
 ]
 
