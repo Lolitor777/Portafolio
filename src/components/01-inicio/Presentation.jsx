@@ -1,6 +1,6 @@
-import astronauta from '../../../assets/astronauta.webp';
-import taza from '../../../assets/taza.png';
-import libro from '../../../assets/libro.png';
+import astronauta from '../../../public/assets/astronauta.webp';
+import taza from '../../../public/assets/taza.png';
+import libro from '../../../public/assets/libro.png';
 import './inicio.css'
 
 export const Presentation = () => {
