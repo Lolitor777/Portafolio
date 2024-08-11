@@ -3,7 +3,7 @@
 export const TestimonyItem = ({ photo, description, name, job }) => {
     
 
-  const photoURL = `/assets/testimony-photos/${ photo }.webp `;
+  const photoURL = `/assets/landing/${ photo }.webp `;
 
 
   return (
