@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom'
-import astronauta from '../../assets/not-found.png'
+import astronauta from '../../public/assets/not-found.png'
 
 export const NotFoundPage = () => {
 
