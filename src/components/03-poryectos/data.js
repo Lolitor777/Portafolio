@@ -27,7 +27,7 @@ export const projects = [{
     logo: 'logo-postaurante.webp',
     background: 'postaurante-background.jpg',
     technologies: [ 'github', 'react', 'laravel', 'postgres' ],
-    description: `Aplicación web que consume la API de Giphy para ofrecer los GIFs que desees.`,
-    link: 'https://gif-xpert-app.netlify.app'
+    description: `SaaS para la gestión de restaurantes, con implementación de WebSockets, JWT, Métricas, gestión de perfiles y más.`,
+    link: 'https://postaurante.cloud'
 }
 ]
